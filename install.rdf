@@ -6,7 +6,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>vga@videogamesawesome.com</em:id>
 	<em:unpack>true</em:unpack>
-    <em:version>0.11</em:version>
+    <em:version>1.0</em:version>
     <em:type>2</em:type>
    
     <!-- Target Application this extension can install into, 
@@ -21,7 +21,7 @@
    
     <!-- Front End MetaData -->
     <em:name>VGA Affiliate Redirect</em:name>
-    <em:description>Automatically redirects affiliate URLs to add VGA affiliate codes.</em:description>
+    <em:description>Automatically changes URLs to add VGA affiliate codes.</em:description>
     <em:creator>rikai / HunterwolfAT</em:creator>
     <em:homepageURL>http://www.videogamesawesome.com/</em:homepageURL>
 
@@ -31,7 +31,7 @@
       <Description>
         <em:locale>en-US</em:locale>
         <em:name>VGA Affiliate Redirect</em:name>
-        <em:description>Automatically redirects affiliate URLs to add VGA affiliate codes.</em:description>
+        <em:description>Automatically changes URLs to add VGA affiliate codes.</em:description>
       </Description>
     </em:localized>
 
