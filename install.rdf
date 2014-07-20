@@ -15,23 +15,23 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>2.0</em:minVersion>
-        <em:maxVersion>26.*</em:maxVersion>
+        <em:maxVersion>30.*</em:maxVersion>
       </Description>
     </em:targetApplication>
    
     <!-- Front End MetaData -->
-    <em:name>Jupiter Broadcasting Affiliate Redirect</em:name>
-    <em:description>Automatically redirects affiliate URLs to add JB affiliate codes.</em:description>
-    <em:creator>rikai</em:creator>
-    <em:homepageURL>http://www.jupiterbroadcasting.com/</em:homepageURL>
+    <em:name>VGA Affiliate Redirect</em:name>
+    <em:description>Automatically redirects affiliate URLs to add VGA affiliate codes.</em:description>
+    <em:creator>rikai / HunterwolfAT</em:creator>
+    <em:homepageURL>http://www.videogamesawesome.com/</em:homepageURL>
 
     <!-- Localized descriptions -->
     <em:translator>rikai (en-US)</em:translator>
     <em:localized>
       <Description>
         <em:locale>en-US</em:locale>
-        <em:name>Jupiter Broadcasting Affiliate Redirect</em:name>
-        <em:description>Automatically redirects affiliate URLs to add JB affiliate codes.</em:description>
+        <em:name>VGA Affiliate Redirect</em:name>
+        <em:description>Automatically redirects affiliate URLs to add VGA affiliate codes.</em:description>
       </Description>
     </em:localized>
 
