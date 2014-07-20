@@ -21,7 +21,7 @@ Want to contribute? Nice! Here's how you can:
 
 
 ### Non-developers
-* Not a coder but still want to help out? Submit an issue over at [the Issue page](https://github.com/HunterwolfAT/JBAR-Firefox/issues) for any bugs you've found or features you'd like to see!
+* Not a coder but still want to help out? Submit an issue over at [the Issue page](https://github.com/HunterwolfAT/VGA-AR-Firefox/issues) for any bugs you've found or features you'd like to see!
 
 ### Developers
 
