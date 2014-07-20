@@ -4,62 +4,28 @@
             onLocationChange: function (aWebProgress, aRequest, aLocation) {
                 var url, tag, win;
                 var configurations = {
-                        audible : {
-                            rx: /^http.*?\.audible\.com.*?\/pd\/.*/i,
+                        amazon : {
+                            rx: /^http.*?\.amazon\.com.*?(\/dp\/|\/o\/asin\/|\/exec\/obidos\/tg\/detail\/|\/gp\/product\/)/i,
                             params: [
-                                { param: "source_code", paramValue: "COMA0230WS012110" },
-                                { param: "AID", paramValue: "10298646" },
-                                { param: "PID", paramValue: "4897915" }
+                                { param: "tag", paramValue: "ffstv-20" }
                             ]
                         },
-                        mint : {
-                            rx: /^http.*?\.mint\.com/i,
+                        amazonuk : {
+                            rx: /^http.*?\.amazon\.co\.uk.*?(\/dp\/|\/o\/asin\/|\/exec\/obidos\/tg\/detail\/|\/gp\/product\/)/i,
                             params: [
-                                { param: "PID", paramValue: "4897915" },
-                                { param: "priorityCode", paramValue: "4216102399" },
-                                { param: "source", paramValue: "cj_pfm" }
+                                { param: "tag", paramValue: "vga06-21" }
                             ]
                         },
-                        thinkgeek : {
-                            rx: /^http.*?\.thinkgeek\.com\/product\//i,
+                        /*amazonde : {
+                            rx: /^http.*?\.amazon\.de.*?(\/dp\/|\/o\/asin\/|\/exec\/obidos\/tg\/detail\/|\/gp\/product\/)/i,
                             params: [
-                                { param: "cpg", paramValue: "cj" },
-                                { param: "ref", paramValue: "" },
-                                { param: "CJURL", paramValue: "" },
-                                { param: "CJID", paramValue: "3282554"}
+                                { param: "tag", paramValue: "We don't have a code for Amazon.de :(" }
                             ]
-                        },
-                        neweggcom : {
-                            rx: /^http.*?\.newegg\.com.*?(product.product\.aspx\?item=|special.shellshocker\.aspx\?)/i,
+                        },*/
+                        amazonca : {
+                            rx: /^http.*?\.amazon\.ca.*?(\/dp\/|\/o\/asin\/|\/exec\/obidos\/tg\/detail\/|\/gp\/product\/)/i,
                             params: [
-                                { param: "nm_mc", paramValue: "AFC-C8Junction" },
-                                { param: "cm_mmc", paramValue: "AFC-C8Junction-_-Branding-_-na-_-na" },
-                                { param: "AID", paramValue: "10440554" },
-                                { param: "PID", paramValue: "4897915" }
-                            ]
-                        },
-                        neweggca : {
-                            rx: /^http.*?\.newegg\.ca.*?(product.product\.aspx\?item=|special.shellshocker\.aspx\?)/i,
-                            params: [
-                                { param: "nm_mc", paramValue: "AFC-C8junctionCA" },
-                                { param: "cm_mmc", paramValue: "AFC-C8JunctionCA-_-homepage-_-na-_-na" },
-                                { param: "AID", paramValue: "10606701" },
-                                { param: "PID", paramValue: "4897915" }
-                            ]
-                        },
-                        woot : {
-                           rx: /^http.*?\.woot\.com.*?\/offers\/.*/i,
-                           params: [
-                                { param: "utm_campaign", paramValue: "Commission+Junction+-+10848750" },
-                                { param: "utm_source", paramValue: "Commission+Junction+Publisher+-+4897915" },
-                                { param: "utm_medium", paramValue: "affiliate+-+Woot%21+Logo" }
-                           ]
-                        },
-                        guitarcenter : {
-                            rx: /^http.*?\.guitarcenter\.com\/.*[a-z0-9]{9}-i[a-z0-9]{7}\.gc/i,
-                            params: [
-                                { param: "CJAID", paramValue: "10453836" },
-                                { param: "CJPID", paramValue: "4897915" }
+                                { param: "tag", paramValue: "vga07-20" }
                             ]
                         }
                     };
