@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-<script type="application/x-javascript" src="chrome://jbar/content/geturl.js"/>
+<script type="application/x-javascript" src="chrome://vga/content/geturl.js"/>
 
 </overlay> 
